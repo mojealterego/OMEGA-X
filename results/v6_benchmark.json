@@ -1,0 +1,7 @@
+{
+  "v6_campaign_wall_ms": 508.956,
+  "context": "measured Python campaign wall time on local test host, not processor-model speedup",
+  "state_machine_transitions": 7055,
+  "policy_cases": 24,
+  "fuzz_seeds": 128
+}

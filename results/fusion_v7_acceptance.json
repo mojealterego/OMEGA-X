@@ -1,0 +1,31 @@
+{
+  "evidence_tier": "DETERMINISTIC_VIRTUAL_MODEL_AND_REAL_CPU_FUNCTIONAL",
+  "host_measured_pdf_benchmark": false,
+  "inputs": {
+    "compare_proof": "5c7c00416d78a1c564875e9bc895f25888d389a4fee207845f9c958ecdebf33b",
+    "contract_proof": "f5eb71ac664efaf0c5c9130fe03777888abdafa685088fc4bc96b4946a28077c",
+    "sensitivity_proof": "809fb1607cb786fb76c4bb3465f058fb1d1686b3b2cff8544e6e09f0843ea081"
+  },
+  "kernel_sched_ext_attached": false,
+  "model_baseline_ms": {
+    "amd_9850x3d": 434.981983,
+    "intel_285k": 468.761453,
+    "omega_x": 247.101254
+  },
+  "model_sensitivity_all_invariants_pass": true,
+  "model_sensitivity_scenarios": 128,
+  "pdf_reference_ms": {
+    "amd_9850x3d": 773.71,
+    "intel_285k": 1159.93,
+    "omega_x": 294.36
+  },
+  "physical_npu_verified": false,
+  "physical_ryzen_intel_fusion_verified": false,
+  "proof_sha256": "386094175e5acf19846547700c5f6a484ea245fe12e1a64752deb15260215258",
+  "real_cpu_functional_digest": "1d23779db1345202c415393fcfd193b233dfc200eb6cab656e660a0c931ffef7",
+  "real_cpu_functional_passed": 12,
+  "required_logical_time_multiplier": 3,
+  "version": "7.0.0",
+  "virtual_contract_makespan_ms": 82.36709,
+  "virtual_contract_satisfied": true
+}

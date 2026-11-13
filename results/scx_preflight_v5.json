@@ -1,0 +1,10 @@
+{
+  "kernel": "6.18.57",
+  "sched_ext_sysfs": false,
+  "kernel_btf": false,
+  "clang": true,
+  "bpftool": false,
+  "status": "UNAVAILABLE_FOR_KERNEL_RUNTIME_VALIDATION",
+  "bpf_build_verified": false,
+  "kernel_attach_verified": false
+}

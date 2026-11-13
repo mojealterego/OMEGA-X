@@ -1,0 +1,48 @@
+{
+  "kind": "ACTUAL_CPU_INT8_GEMM",
+  "host": {
+    "architecture": "x86_64",
+    "kernel": "6.18.57",
+    "allowed_cpus": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "avx2": true,
+    "avx512": true,
+    "sched_ext_present": false,
+    "npu_devices": [],
+    "cpu_models": [
+      "INTEL(R) XEON(R) PLATINUM 8573C"
+    ]
+  },
+  "matrix_dim": 64,
+  "repeats": 5,
+  "verification": "EXACT_INTEGER_MATCH",
+  "timings": {
+    "native_cpu": {
+      "median_ns": 1722352,
+      "samples_ns": [
+        1540271,
+        1731697,
+        2167669,
+        1722352,
+        1460014
+      ]
+    },
+    "python_reference": {
+      "median_ns": 12474100,
+      "samples_ns": [
+        12548657,
+        12474100,
+        12633585,
+        11631343,
+        11960859
+      ]
+    }
+  },
+  "measured_python_to_native_ratio": 7.242,
+  "limitations": "Only this CPU and Python; NOT NPU hardware nor AMD-vs-Intel 9850X3D/285K"
+}

@@ -1,0 +1,1259 @@
+{
+  "mode": "DETERMINISTIC_SIMULATION_ONLY",
+  "seeds": 50,
+  "total_events": 50000,
+  "all_invariants_pass": true,
+  "runs": [
+    {
+      "seed": 20261112,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 359,
+      "rejected_writes": 242,
+      "event_counts": {
+        "append": 601,
+        "crash": 94,
+        "recover": 124,
+        "partition": 80,
+        "heal": 67,
+        "probe": 34
+      },
+      "synthetic_p99_ns": 25038,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "883783fe4888da83e09a8190824956f91451d08b354c812c06de233a31620f7a",
+      "sha256": "e0c8dc822c63a747f694355f5d9f800c3e9570445b8227fa9c2b0c19c515f632"
+    },
+    {
+      "seed": 20261113,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 232,
+      "rejected_writes": 354,
+      "event_counts": {
+        "append": 586,
+        "crash": 119,
+        "recover": 129,
+        "partition": 61,
+        "heal": 62,
+        "probe": 43
+      },
+      "synthetic_p99_ns": 25113,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "22c1b4b222ebc68d068e60fc7415d734e989ac7ba778f9dcccdb8531e4bab552",
+      "sha256": "c1231d50595a8a64f5e5d67029b617aa0351362dba99a9370778d27c9c275dc4"
+    },
+    {
+      "seed": 20261114,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 149,
+      "rejected_writes": 485,
+      "event_counts": {
+        "append": 634,
+        "crash": 101,
+        "recover": 100,
+        "partition": 71,
+        "heal": 52,
+        "probe": 42
+      },
+      "synthetic_p99_ns": 25122,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "430b72a967fa57e6a665d004656efcbc9a4740675b47f0a0351b2355e7fc1e92",
+      "sha256": "b5891db0aa73658c76b2fab7583f3d9138ec03a2e712ba25438a75d08e2aea90"
+    },
+    {
+      "seed": 20261115,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 220,
+      "rejected_writes": 366,
+      "event_counts": {
+        "append": 586,
+        "crash": 111,
+        "recover": 114,
+        "partition": 88,
+        "heal": 60,
+        "probe": 41
+      },
+      "synthetic_p99_ns": 25072,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "548fbc2da4df321eae09b80a31a916a82d48aa26d9cbb905b5b18f72bd5ffecb",
+      "sha256": "8bd00a702b889e867a71fc7037edab314e62308c52db7ae079f0ddd5076f19c4"
+    },
+    {
+      "seed": 20261116,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 318,
+      "rejected_writes": 268,
+      "event_counts": {
+        "append": 586,
+        "crash": 109,
+        "recover": 135,
+        "partition": 79,
+        "heal": 57,
+        "probe": 34
+      },
+      "synthetic_p99_ns": 25045,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "07725820604d7ddf2b51f2d96f3cc8260c250c80562090295ea1d70ca241a83e",
+      "sha256": "393fcb3e5e25a897987dfceed0d9bbf4abdfc26e57a57778c95e03195ff6f3b2"
+    },
+    {
+      "seed": 20261117,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 239,
+      "rejected_writes": 347,
+      "event_counts": {
+        "append": 586,
+        "crash": 94,
+        "recover": 115,
+        "partition": 82,
+        "heal": 74,
+        "probe": 49
+      },
+      "synthetic_p99_ns": 25029,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "6dccb3e51780fa6b3e4f0599a97b0fa00d97924ecac5f6d9d2f992929c069944",
+      "sha256": "7280e8acdbf384acf5377322ce2e5160d0dba6a834a9927d1bb853da9d96753f"
+    },
+    {
+      "seed": 20261118,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 250,
+      "rejected_writes": 382,
+      "event_counts": {
+        "append": 632,
+        "crash": 80,
+        "recover": 111,
+        "partition": 86,
+        "heal": 53,
+        "probe": 38
+      },
+      "synthetic_p99_ns": 24948,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "57eae744cb520f99edc519d03a70ad12b3351b4b1c57df35e55053468c28444c",
+      "sha256": "757031bc809f3498b3e8900f02df29ac78c40be0853e70285095d1e87fd170fa"
+    },
+    {
+      "seed": 20261119,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 236,
+      "rejected_writes": 335,
+      "event_counts": {
+        "append": 571,
+        "crash": 107,
+        "recover": 123,
+        "partition": 86,
+        "heal": 65,
+        "probe": 48
+      },
+      "synthetic_p99_ns": 25133,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "4c2418928aef643e7a24a9e8f9936a354e09d77b7ca47dbd23ca12ff82320cf1",
+      "sha256": "c602926d33f95a83afdfcbff1142cea4917df2e5844765b6b5acf942490ce0f3"
+    },
+    {
+      "seed": 20261120,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 305,
+      "rejected_writes": 319,
+      "event_counts": {
+        "append": 624,
+        "crash": 96,
+        "recover": 100,
+        "partition": 72,
+        "heal": 69,
+        "probe": 39
+      },
+      "synthetic_p99_ns": 24903,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "72fc4299d46405eb1fd2fb9e91f259fe7a72829080749d20655df443329050ab",
+      "sha256": "e24596c5c8e2f7409f20f1f352432646d4b5c7240fc5afee314e453a303c8b9a"
+    },
+    {
+      "seed": 20261121,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 196,
+      "rejected_writes": 375,
+      "event_counts": {
+        "append": 571,
+        "crash": 114,
+        "recover": 120,
+        "partition": 81,
+        "heal": 77,
+        "probe": 37
+      },
+      "synthetic_p99_ns": 25102,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "9538bdcc0ab258a0ca3977402fd766647b185902cffe59caa52c1a5787c90a9f",
+      "sha256": "df91367d2283e7a74a836853471eecfe77e31b8e80c532652d5a8363df3d5bb1"
+    },
+    {
+      "seed": 20261122,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 154,
+      "rejected_writes": 440,
+      "event_counts": {
+        "append": 594,
+        "crash": 116,
+        "recover": 117,
+        "partition": 75,
+        "heal": 59,
+        "probe": 39
+      },
+      "synthetic_p99_ns": 25110,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "f6763f828f85272468730713353253bf55e6e5bd4c355c877f75f3627079bcaa",
+      "sha256": "06917053e02c9dba5c02646213c9e3697216a569e815bb335ebf07689be712d4"
+    },
+    {
+      "seed": 20261123,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 305,
+      "rejected_writes": 298,
+      "event_counts": {
+        "append": 603,
+        "crash": 118,
+        "recover": 116,
+        "partition": 64,
+        "heal": 55,
+        "probe": 44
+      },
+      "synthetic_p99_ns": 24997,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "eb42452b1e4dc478744e63e443bb7b92868637a345842008b6f49f728d563f68",
+      "sha256": "b2e039e1d01dc1b8b8c09c62b701a26591a195ba36934dc16cf487f72b1182b0"
+    },
+    {
+      "seed": 20261124,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 183,
+      "rejected_writes": 409,
+      "event_counts": {
+        "append": 592,
+        "crash": 105,
+        "recover": 110,
+        "partition": 80,
+        "heal": 70,
+        "probe": 43
+      },
+      "synthetic_p99_ns": 25097,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "1055a148fac32034ac631cb0277b64477110ac90000cc534370e7d0dfc5ed35e",
+      "sha256": "3b1431897012811cf762b1d363c80c6c0d1611851b708a8bb1eef20ff2c3dbf7"
+    },
+    {
+      "seed": 20261125,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 209,
+      "rejected_writes": 395,
+      "event_counts": {
+        "append": 604,
+        "crash": 104,
+        "recover": 114,
+        "partition": 82,
+        "heal": 56,
+        "probe": 40
+      },
+      "synthetic_p99_ns": 25145,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "9334f81a0e7625f9573bb11650220ff478ca7ee14acc3fa7f607a22aadf39f57",
+      "sha256": "c523d66334458fcb5c27c22e8c5d4dbf043c09e459581139131c956787397774"
+    },
+    {
+      "seed": 20261126,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 127,
+      "rejected_writes": 458,
+      "event_counts": {
+        "append": 585,
+        "crash": 120,
+        "recover": 122,
+        "partition": 80,
+        "heal": 56,
+        "probe": 37
+      },
+      "synthetic_p99_ns": 25107,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "bf84e0d9cd046b99fa9740a24797673e5b2455c780fed453fdec04c080b5f33f",
+      "sha256": "0c5c484a77d2b836f347c1c6458caf69422e7741f75fb71723665593fd31fd05"
+    },
+    {
+      "seed": 20261127,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 185,
+      "rejected_writes": 433,
+      "event_counts": {
+        "append": 618,
+        "crash": 104,
+        "recover": 98,
+        "partition": 84,
+        "heal": 52,
+        "probe": 44
+      },
+      "synthetic_p99_ns": 24992,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "485c4b4f1e93d499cee7e8602fdc0f8f47e8e5e29020547c0051f3dbb834d1de",
+      "sha256": "2f4ce0640353db9f3f8334cc879d17b8734a8fa74cc5eec6aea25df2e0153039"
+    },
+    {
+      "seed": 20261128,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 128,
+      "rejected_writes": 458,
+      "event_counts": {
+        "append": 586,
+        "crash": 140,
+        "recover": 112,
+        "partition": 71,
+        "heal": 57,
+        "probe": 34
+      },
+      "synthetic_p99_ns": 25100,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "9e239f6b2b646627f0a92bc165efffeaab99253ed8c64019fa88c62ae01665e6",
+      "sha256": "e5a49c0ba1a70779793274b1bc7f7f250514b2b5d4d1c803acd5dc4b5c7f110b"
+    },
+    {
+      "seed": 20261129,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 297,
+      "rejected_writes": 312,
+      "event_counts": {
+        "append": 609,
+        "crash": 109,
+        "recover": 119,
+        "partition": 72,
+        "heal": 58,
+        "probe": 33
+      },
+      "synthetic_p99_ns": 25031,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "a19b0245553f41d8145267d601728d3fcfc55f955fec63b77daadb7820ac9812",
+      "sha256": "8d4aa57740af37bce22cf1b4bb8a3c2d38aa02dfbb8bcd4e95b1aadcd1bfb657"
+    },
+    {
+      "seed": 20261130,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 188,
+      "rejected_writes": 409,
+      "event_counts": {
+        "append": 597,
+        "crash": 113,
+        "recover": 116,
+        "partition": 81,
+        "heal": 50,
+        "probe": 43
+      },
+      "synthetic_p99_ns": 25120,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "0488a41d4b14934d53e1f14ff102af4d6a2f2665a8a92b0206a59a35698278f7",
+      "sha256": "95c8a29eac1c95f26173d7add577095ae038784377fab8b5149be667f30cbcc9"
+    },
+    {
+      "seed": 20261131,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 197,
+      "rejected_writes": 395,
+      "event_counts": {
+        "append": 592,
+        "crash": 100,
+        "recover": 112,
+        "partition": 96,
+        "heal": 57,
+        "probe": 43
+      },
+      "synthetic_p99_ns": 25074,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "c0bdb94477d96eca59de7b9814b1e9ef0ef871b6c501bcd29b62f94c8320459d",
+      "sha256": "4b9011823a6a670cad23678d196e65ee503d39be4935f0c9700ae39460c939c4"
+    },
+    {
+      "seed": 20261132,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 222,
+      "rejected_writes": 377,
+      "event_counts": {
+        "append": 599,
+        "crash": 114,
+        "recover": 99,
+        "partition": 83,
+        "heal": 62,
+        "probe": 43
+      },
+      "synthetic_p99_ns": 25044,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "228273faca8d574d51ea5698804e6655daf5c746dceff55853e7027ae6c4d78e",
+      "sha256": "2c4c37369dd64a97ac416cce2c664486ff333b4e4e55dd790abcc5253c21e95a"
+    },
+    {
+      "seed": 20261133,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 237,
+      "rejected_writes": 356,
+      "event_counts": {
+        "append": 593,
+        "crash": 100,
+        "recover": 102,
+        "partition": 89,
+        "heal": 69,
+        "probe": 47
+      },
+      "synthetic_p99_ns": 24993,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "bc462afd6827f1a8d2bf98ec22677db113ea35a5b2cc65c79e129a4b5e926b85",
+      "sha256": "a04768bb9c1a67af754640926c7fd8657824c58ac4b84a55aec6b36b71409b1f"
+    },
+    {
+      "seed": 20261134,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 198,
+      "rejected_writes": 399,
+      "event_counts": {
+        "append": 597,
+        "crash": 109,
+        "recover": 101,
+        "partition": 91,
+        "heal": 55,
+        "probe": 47
+      },
+      "synthetic_p99_ns": 25034,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "66c50e5a2f0f914e1bc9e099b327cc8141002b4723bed82a1085755763df9e07",
+      "sha256": "cb8531893f30b38519014a20d3ce1146d6af9f0ec00c1dd55eeb1c6c275abc3e"
+    },
+    {
+      "seed": 20261135,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 204,
+      "rejected_writes": 414,
+      "event_counts": {
+        "append": 618,
+        "crash": 110,
+        "recover": 122,
+        "partition": 61,
+        "heal": 63,
+        "probe": 26
+      },
+      "synthetic_p99_ns": 25085,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "a33fd04db914e52c423d8f37f573b380a567847d65757939323819f0dd1e0516",
+      "sha256": "35f02784a17e3d5e175146b3343e70cab2bdb236df5a84cec2171287c76a2a45"
+    },
+    {
+      "seed": 20261136,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 271,
+      "rejected_writes": 306,
+      "event_counts": {
+        "append": 577,
+        "crash": 108,
+        "recover": 121,
+        "partition": 97,
+        "heal": 58,
+        "probe": 39
+      },
+      "synthetic_p99_ns": 25038,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "35e167eb935976729a8ca0d0b893c894b8dbefae7324ce2c26c1739dba566992",
+      "sha256": "9def5be7291ae7e818facd55f6574cae4e733489247f45da7488f4e71675c25e"
+    },
+    {
+      "seed": 20261137,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 279,
+      "rejected_writes": 315,
+      "event_counts": {
+        "append": 594,
+        "crash": 118,
+        "recover": 116,
+        "partition": 77,
+        "heal": 58,
+        "probe": 37
+      },
+      "synthetic_p99_ns": 25004,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "ebf2a6fe571b5410f29ab2ba50e6eadc8a1e3564a398c9e68a2d1c39a4947dd8",
+      "sha256": "1b4c414d489337231832c9f5bb95737de5c5bb37b62d997ddbc2dab027dbb313"
+    },
+    {
+      "seed": 20261138,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 181,
+      "rejected_writes": 416,
+      "event_counts": {
+        "append": 597,
+        "crash": 118,
+        "recover": 102,
+        "partition": 82,
+        "heal": 59,
+        "probe": 42
+      },
+      "synthetic_p99_ns": 25101,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "303befe0a3ee424c976fdae20219b061eb67dfe2d441b01576375e5c58aaf456",
+      "sha256": "002d2b2019a947679a82aba63cbb81b151ae293629091cbed40a16c917a01bd8"
+    },
+    {
+      "seed": 20261139,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 245,
+      "rejected_writes": 360,
+      "event_counts": {
+        "append": 605,
+        "crash": 106,
+        "recover": 95,
+        "partition": 90,
+        "heal": 59,
+        "probe": 45
+      },
+      "synthetic_p99_ns": 25060,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "cdb35a20c4e67d2f51a5077cc567c503452c4bad8a4a82f84f69dcfbbf8a66a0",
+      "sha256": "ad0da780bb504f1bcd8259b652bf3727018c3145b33b3c391c9aef76e0137580"
+    },
+    {
+      "seed": 20261140,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 154,
+      "rejected_writes": 428,
+      "event_counts": {
+        "append": 582,
+        "crash": 119,
+        "recover": 99,
+        "partition": 89,
+        "heal": 72,
+        "probe": 39
+      },
+      "synthetic_p99_ns": 25109,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "6347b6bea42df946f18eef4dc82c73ce2a0ebb0e8a951b575195b16d89edeea8",
+      "sha256": "0c85e73ce3258ca38bc01215a5747597b168cd8828d0747547b4b1627c55423b"
+    },
+    {
+      "seed": 20261141,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 249,
+      "rejected_writes": 356,
+      "event_counts": {
+        "append": 605,
+        "crash": 116,
+        "recover": 106,
+        "partition": 78,
+        "heal": 61,
+        "probe": 34
+      },
+      "synthetic_p99_ns": 25063,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "93355da36578e9e2da5cce5d395f20dfc7ed8b3491421208af5e89dae3326a51",
+      "sha256": "2d6e21fce83518279d714ba7f965f6e6a12388140f8318ed56136d95a5079446"
+    },
+    {
+      "seed": 20261142,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 206,
+      "rejected_writes": 394,
+      "event_counts": {
+        "append": 600,
+        "crash": 106,
+        "recover": 115,
+        "partition": 84,
+        "heal": 63,
+        "probe": 32
+      },
+      "synthetic_p99_ns": 24978,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "688aa872b9b3e9202db4497167a6a6750a806ca15be95eae4dfb42b53890b236",
+      "sha256": "aa15ea2b9152164dc962d2002d88ee6ff34c29ee8c1324f00cf8a9d7229d0664"
+    },
+    {
+      "seed": 20261143,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 202,
+      "rejected_writes": 406,
+      "event_counts": {
+        "append": 608,
+        "crash": 123,
+        "recover": 109,
+        "partition": 70,
+        "heal": 58,
+        "probe": 32
+      },
+      "synthetic_p99_ns": 25107,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "fa6741d47b40eabba9d3bfd4964d051264617a3088ccc5b310b5da203da1bfc9",
+      "sha256": "c96da3a5753fef93fc0549f300f6e186b7e6768f407888627fb5ee188a8ebcc1"
+    },
+    {
+      "seed": 20261144,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 215,
+      "rejected_writes": 369,
+      "event_counts": {
+        "append": 584,
+        "crash": 110,
+        "recover": 116,
+        "partition": 80,
+        "heal": 70,
+        "probe": 40
+      },
+      "synthetic_p99_ns": 25114,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "b51476174c395e771a50d0db5b8d90e5996d1b8d527a8804b199c9fb5997f910",
+      "sha256": "39f8b479ebfdb8a9ff25b0b26ee9745a625a65348cf31e403e9b32c6233490a5"
+    },
+    {
+      "seed": 20261145,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 179,
+      "rejected_writes": 405,
+      "event_counts": {
+        "append": 584,
+        "crash": 116,
+        "recover": 106,
+        "partition": 74,
+        "heal": 66,
+        "probe": 54
+      },
+      "synthetic_p99_ns": 24967,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "adc8b7c7b6e7cdf9fdcbe71ef7ff7a0961fee5592fa1c9f761b285351541ba19",
+      "sha256": "b906266a11370e41ca292bc4ff23534cff25deffe890e784db4495f00344464b"
+    },
+    {
+      "seed": 20261146,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 270,
+      "rejected_writes": 333,
+      "event_counts": {
+        "append": 603,
+        "crash": 83,
+        "recover": 117,
+        "partition": 80,
+        "heal": 67,
+        "probe": 50
+      },
+      "synthetic_p99_ns": 24970,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "807052c1e96223475318496deb83c9dc6931fc857971c0c47e31ef6cda8b4332",
+      "sha256": "bbe7dfeac53c7ad578795bdd8d4301e3fc552a05f5ecfd396d85363ead3041d5"
+    },
+    {
+      "seed": 20261147,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 166,
+      "rejected_writes": 423,
+      "event_counts": {
+        "append": 589,
+        "crash": 120,
+        "recover": 111,
+        "partition": 78,
+        "heal": 54,
+        "probe": 48
+      },
+      "synthetic_p99_ns": 25099,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "a39ca633efd193df5208e44770ba084c3f0441df0f0b99089a6139386f640115",
+      "sha256": "f822c4e3159dd50ca43c72d02d135956303cde92b6b56da1d4c3776dc9700df9"
+    },
+    {
+      "seed": 20261148,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 286,
+      "rejected_writes": 324,
+      "event_counts": {
+        "append": 610,
+        "crash": 108,
+        "recover": 118,
+        "partition": 78,
+        "heal": 51,
+        "probe": 35
+      },
+      "synthetic_p99_ns": 25067,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "a9d078fd1a0f339c117ac154b911250f2007db7343052fea2c66b726ee55d7be",
+      "sha256": "7953a35b5cc08e9aa9583471ecec6fd323581430ffafcbeba61c998b0af92c81"
+    },
+    {
+      "seed": 20261149,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 183,
+      "rejected_writes": 452,
+      "event_counts": {
+        "append": 635,
+        "crash": 107,
+        "recover": 107,
+        "partition": 67,
+        "heal": 49,
+        "probe": 35
+      },
+      "synthetic_p99_ns": 24969,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "e2ba4e1be268580f1b434b18f64905fc016aa31425d4b8245a3c63d9cab8a268",
+      "sha256": "865f82cae7da0f82b05050a865d8b1cfd63197847e9ab9162318ee7bdb225960"
+    },
+    {
+      "seed": 20261150,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 277,
+      "rejected_writes": 314,
+      "event_counts": {
+        "append": 591,
+        "crash": 101,
+        "recover": 125,
+        "partition": 72,
+        "heal": 60,
+        "probe": 51
+      },
+      "synthetic_p99_ns": 24984,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "056c474feaaaee7582200fbb95589ea6c42b5c69f6c7a1b36d27c963904eb107",
+      "sha256": "136752d0f0e412797cd6f76155fd6d13ae008a28accec2dc9eecf500ff630f55"
+    },
+    {
+      "seed": 20261151,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 185,
+      "rejected_writes": 430,
+      "event_counts": {
+        "append": 615,
+        "crash": 98,
+        "recover": 98,
+        "partition": 87,
+        "heal": 60,
+        "probe": 42
+      },
+      "synthetic_p99_ns": 25060,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "75e72b2c7788655069d04830c7786affc889fc48e7f6cf78ded1b1ea647f2925",
+      "sha256": "ae147a6fc7fb963e03861c7411ef375dbf6764a4f1be850a1afd5246d0d19b89"
+    },
+    {
+      "seed": 20261152,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 254,
+      "rejected_writes": 365,
+      "event_counts": {
+        "append": 619,
+        "crash": 103,
+        "recover": 111,
+        "partition": 76,
+        "heal": 63,
+        "probe": 28
+      },
+      "synthetic_p99_ns": 25030,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "c920a49bd07b8981b3068fca5ad034c75f1a614af74f4fff1c092cb79a05f65e",
+      "sha256": "ac584a1451ecd893cfd7e1913e9c845a2eac79a10402aaf7f6e7396ba5823929"
+    },
+    {
+      "seed": 20261153,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 286,
+      "rejected_writes": 308,
+      "event_counts": {
+        "append": 594,
+        "crash": 101,
+        "recover": 117,
+        "partition": 81,
+        "heal": 60,
+        "probe": 47
+      },
+      "synthetic_p99_ns": 25109,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "ff36509e2c7cb7780522ce17d0eea4c4ffbd531de560efb3c8bfc821eb87c6ce",
+      "sha256": "150fbfe29742914b2e5e44c8ff1c19ac82626111975cb89e137bf1564c07b9be"
+    },
+    {
+      "seed": 20261154,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 244,
+      "rejected_writes": 372,
+      "event_counts": {
+        "append": 616,
+        "crash": 106,
+        "recover": 120,
+        "partition": 62,
+        "heal": 63,
+        "probe": 33
+      },
+      "synthetic_p99_ns": 25103,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "cf6cbabd3fc07b000606191e2b12b9a26d934f3058d03d54b371c8751bba83a8",
+      "sha256": "acd3e0566216d440e3ccc2fdf91708a442f283e7675356f152d5903e3cbe8132"
+    },
+    {
+      "seed": 20261155,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 244,
+      "rejected_writes": 375,
+      "event_counts": {
+        "append": 619,
+        "crash": 101,
+        "recover": 109,
+        "partition": 82,
+        "heal": 56,
+        "probe": 33
+      },
+      "synthetic_p99_ns": 24999,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "df03783533ac79a27678987b54dfb225066df669ec9b525a130b8f789dceb62a",
+      "sha256": "2d1df24d1b23303bede901f68f41a87defab072e4c3d4353605b53f84aa84eac"
+    },
+    {
+      "seed": 20261156,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 224,
+      "rejected_writes": 387,
+      "event_counts": {
+        "append": 611,
+        "crash": 117,
+        "recover": 109,
+        "partition": 62,
+        "heal": 66,
+        "probe": 35
+      },
+      "synthetic_p99_ns": 24928,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "58d7b9b6298328b4b4cbc4056b3c6e0f1422e360180054269a2763d62e7ce7d9",
+      "sha256": "0821fd90d67f8268a979b93464ec87c12e8cf0db4b44fd03f5028cd331e7bdd8"
+    },
+    {
+      "seed": 20261157,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 213,
+      "rejected_writes": 379,
+      "event_counts": {
+        "append": 592,
+        "crash": 106,
+        "recover": 123,
+        "partition": 79,
+        "heal": 70,
+        "probe": 30
+      },
+      "synthetic_p99_ns": 25069,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "3c89f07cabb76447a86ddcb2abd17ab6561facc0abe13637d87089d294e288e6",
+      "sha256": "3f2525e7678f161f6a5e6ffa68d5af05ac0c677c876ecde4fd02fd54a97db729"
+    },
+    {
+      "seed": 20261158,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 179,
+      "rejected_writes": 405,
+      "event_counts": {
+        "append": 584,
+        "crash": 119,
+        "recover": 128,
+        "partition": 70,
+        "heal": 55,
+        "probe": 44
+      },
+      "synthetic_p99_ns": 25028,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "681b7d76f350986a78cdef5414a14156ee3243d0cd6bd5acb939b06e9e9db75a",
+      "sha256": "b51f6abaf9df83c17683d859d3c5e1b81f5aba163f16df1c2340e6bb41f05bbe"
+    },
+    {
+      "seed": 20261159,
+      "rounds": 1000,
+      "nodes": 7,
+      "commits": 150,
+      "rejected_writes": 473,
+      "event_counts": {
+        "append": 623,
+        "crash": 114,
+        "recover": 92,
+        "partition": 78,
+        "heal": 51,
+        "probe": 42
+      },
+      "synthetic_p99_ns": 25045,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "39c98e1d80481371cc9300f2ac2cf643f01d6542f3fc4c9e44a812c51787ab14",
+      "sha256": "60ae0d43c69720bfe8a22ac1eb462da9776d669669836f9306bc8c1430fc3565"
+    },
+    {
+      "seed": 20261160,
+      "rounds": 1000,
+      "nodes": 3,
+      "commits": 133,
+      "rejected_writes": 449,
+      "event_counts": {
+        "append": 582,
+        "crash": 123,
+        "recover": 93,
+        "partition": 88,
+        "heal": 69,
+        "probe": 45
+      },
+      "synthetic_p99_ns": 24714,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "650762acdd5a8a8c5c7c267144d91ee7cc9dfcaa1ee11e252e882e335ca3ae7a",
+      "sha256": "81b6a79c14b043c3185796d006fe700e528fadbd22f468a4d64bf1ce217329d5"
+    },
+    {
+      "seed": 20261161,
+      "rounds": 1000,
+      "nodes": 5,
+      "commits": 273,
+      "rejected_writes": 341,
+      "event_counts": {
+        "append": 614,
+        "crash": 101,
+        "recover": 107,
+        "partition": 82,
+        "heal": 56,
+        "probe": 40
+      },
+      "synthetic_p99_ns": 25069,
+      "invariants": {
+        "prefix_safety": true,
+        "quorum_receipts": true,
+        "no_uncommitted_ack": true,
+        "elected_leader_has_committed": true,
+        "symmetric_links": true
+      },
+      "head_sha256": "b16e50e61977062ff60cddc63583abbb42bd053dba02f5dd46c570f40a1e36ca",
+      "sha256": "91c48f8cdf46e661c46814b8788264f5091b169281d600d7d1799694768cdcd4"
+    }
+  ],
+  "campaign_sha256": "36e5f7ddcb605f018e60110b9f2a2d82a2a8f55b19d59f4e49dd34fa497fa77f"
+}

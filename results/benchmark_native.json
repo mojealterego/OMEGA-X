@@ -1,0 +1,63 @@
+{
+  "kind": "ACTUAL_HOST_MEASUREMENT",
+  "host": {
+    "architecture": "x86_64",
+    "kernel": "6.18.57",
+    "allowed_cpus": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "avx2": true,
+    "avx512": true,
+    "sched_ext_present": false,
+    "npu_devices": [],
+    "cpu_models": [
+      "INTEL(R) XEON(R) PLATINUM 8573C"
+    ]
+  },
+  "simd_available": [
+    "scalar",
+    "avx2",
+    "avx512"
+  ],
+  "elements": 262144,
+  "repeats": 24,
+  "trials": 7,
+  "modes": {
+    "scalar": {
+      "median_ns_per_call": 152330,
+      "min_ns_per_call": 145321,
+      "max_ns_per_call": 180085,
+      "samples_ns_per_call": [
+        180085,
+        145321,
+        146850,
+        147175,
+        152330,
+        166136,
+        166960
+      ],
+      "bytes_processed_per_call": 3145728
+    },
+    "auto": {
+      "median_ns_per_call": 135244,
+      "min_ns_per_call": 123289,
+      "max_ns_per_call": 177872,
+      "samples_ns_per_call": [
+        177872,
+        125588,
+        143688,
+        123289,
+        135244,
+        127590,
+        177405
+      ],
+      "bytes_processed_per_call": 3145728
+    }
+  },
+  "observed_speedup_auto_vs_scalar": 1.126,
+  "caveats": "host-specific; no AMD/Intel 9850X3D/285K comparison; includes ctypes call overhead"
+}

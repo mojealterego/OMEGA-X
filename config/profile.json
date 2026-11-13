@@ -1,0 +1,10 @@
+{
+ "schema_version":1,
+ "name":"OMEGA-X Chimera-X3D reference simulation",
+ "p_cores":8,"e_cores":16,"npu_units":4,
+ "cache":{"line_bytes":64,"p_l0_bytes":49152,"p_l1_bytes":196608,"p_l2_bytes":3145728,"e_l0_bytes":32768,"e_l2_bytes":4194304,"l3_bytes":134217728,"l3_ways":16,"p_ways":12,"max_resident_lines":65536},
+ "latency_ns":{"l0":0.70,"l1":1.40,"l2":2.46,"l3":7.72,"dram":51.0,"peer_same":0.70,"peer_other":2.10},
+ "bandwidth_bytes_per_ns":{"p_to_npu":1650.0,"dram":75.0},
+ "scheduler":{"quantum_ns":500000,"weight_warmth":0.45,"weight_speedup":0.35,"weight_criticality":0.20,"priority_threshold":0.52},
+ "limits":{"max_tasks":4096,"max_trace_entries_per_task":100000,"max_payload_bytes":262144,"retry_attempts":4,"circuit_failures":3,"circuit_recovery_ns":2000000}
+}

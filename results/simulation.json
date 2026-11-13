@@ -1,0 +1,1 @@
+{"events": 2000, "failures": 230, "invariants": {"bounded_retries": true, "checkpoint_integrity": true, "conservation": true}, "rejected": 27, "rounds": 2000, "seed": 20261112, "state_hash": "cf9de21d3ca58dbc9aa8bedb430492e0b0a638246d496f6febc6f15a203e42de", "successes": 1743}

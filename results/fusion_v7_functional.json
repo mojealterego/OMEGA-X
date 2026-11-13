@@ -1,0 +1,98 @@
+{
+  "equivalent_to_pdf_full_workload": false,
+  "evidence_tier": "REAL_HOST_FUNCTIONAL_CPU_ONLY",
+  "failed": 0,
+  "functional_sha256": "1d23779db1345202c415393fcfd193b233dfc200eb6cab656e660a0c931ffef7",
+  "interpretation": "Small representative real CPU kernels; timings are local host wall-clock, not Ryzen/Intel or PDF workload timings.",
+  "jobs": 12,
+  "native_library_loaded": true,
+  "passed": 12,
+  "physical_npu_executed": false,
+  "real_cpu_executed": true,
+  "results": [
+    {
+      "backend": "cpu_sha256",
+      "correct": true,
+      "kind": "CACHE",
+      "measured_wall_ns": 2123171,
+      "task_id": 101
+    },
+    {
+      "backend": "cpu_sha256",
+      "correct": true,
+      "kind": "CACHE",
+      "measured_wall_ns": 1992676,
+      "task_id": 102
+    },
+    {
+      "backend": "native_cpu_saxpy",
+      "correct": true,
+      "kind": "VECTOR",
+      "measured_wall_ns": 2252111,
+      "task_id": 103
+    },
+    {
+      "backend": "native_cpu_saxpy",
+      "correct": true,
+      "kind": "VECTOR",
+      "measured_wall_ns": 2287384,
+      "task_id": 104
+    },
+    {
+      "backend": "native_cpu_int8",
+      "correct": true,
+      "kind": "TENSOR",
+      "measured_wall_ns": 547569,
+      "task_id": 105
+    },
+    {
+      "backend": "native_cpu_int8",
+      "correct": true,
+      "kind": "TENSOR",
+      "measured_wall_ns": 469753,
+      "task_id": 106
+    },
+    {
+      "backend": "cpu_sha256",
+      "correct": true,
+      "kind": "BACKGROUND",
+      "measured_wall_ns": 102972,
+      "task_id": 201
+    },
+    {
+      "backend": "cpu_sha256",
+      "correct": true,
+      "kind": "BACKGROUND",
+      "measured_wall_ns": 99781,
+      "task_id": 202
+    },
+    {
+      "backend": "cpu_sha256",
+      "correct": true,
+      "kind": "BACKGROUND",
+      "measured_wall_ns": 95149,
+      "task_id": 203
+    },
+    {
+      "backend": "cpu_sha256",
+      "correct": true,
+      "kind": "BACKGROUND",
+      "measured_wall_ns": 94638,
+      "task_id": 204
+    },
+    {
+      "backend": "cpu_sha256",
+      "correct": true,
+      "kind": "BACKGROUND",
+      "measured_wall_ns": 94567,
+      "task_id": 205
+    },
+    {
+      "backend": "cpu_sha256",
+      "correct": true,
+      "kind": "BACKGROUND",
+      "measured_wall_ns": 94451,
+      "task_id": 206
+    }
+  ]
+}

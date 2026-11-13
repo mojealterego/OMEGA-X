@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "architecture": "omega_x",
+  "policy": "critical_first",
+  "virtual_multiplier": 1,
+  "faults": [],
+  "tasks": [
+    {"task_id": 1, "name": "game-frame", "kind": "CACHE", "instructions": 420000000, "working_set_bytes": 67108864, "vector_fraction": 0.35, "cache_warmth": 0.8, "tensor_sparsity": 0, "memory_access_fraction": 0.30},
+    {"task_id": 2, "name": "inference", "kind": "TENSOR", "instructions": 600000000, "working_set_bytes": 33554432, "vector_fraction": 0.85, "cache_warmth": 0.25, "tensor_sparsity": 0.55, "memory_access_fraction": 0.06}
+  ]
+}

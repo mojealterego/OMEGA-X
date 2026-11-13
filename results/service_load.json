@@ -1,0 +1,13 @@
+{
+  "mode": "ACTUAL_LOCAL_CPU_AND_LOOPBACK",
+  "jobs": 18,
+  "workers": 3,
+  "tenant_count": 3,
+  "successes": 18,
+  "failed": 0,
+  "wall_ns": 8886145519,
+  "job_kernel_median_ns": 69660,
+  "job_kernel_p95_ns": 139010,
+  "journal_integrity": true,
+  "limits": "Host-specific; includes HTTP, process startup, SQLite and actual CPU SHA-256; no NPU or remote cluster"
+}

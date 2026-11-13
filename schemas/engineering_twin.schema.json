@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OMEGA-X deterministic engineering twin request v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "seed",
+    "profile",
+    "tasks",
+    "faults"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "seed": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9223372036854775807
+    },
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "p_lanes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "e_lanes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "npu_lanes": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100000000
+        },
+        "p_ops_per_us": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "e_ops_per_us": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "npu_ops_per_us": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "fabric_bytes_per_ns": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "link_latency_ns": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000000000000
+        },
+        "p_lane_watts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "e_lane_watts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "npu_lane_watts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "power_budget_watts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        },
+        "max_tasks": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000000
+        }
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "maxItems": 4096,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "task_id",
+          "tenant",
+          "kind",
+          "ops",
+          "transfer_bytes",
+          "arrival_ns",
+          "deadline_ns"
+        ],
+        "properties": {
+          "task_id": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "tenant": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "VECTOR",
+              "BACKGROUND",
+              "TENSOR"
+            ]
+          },
+          "ops": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "transfer_bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "arrival_ns": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "deadline_ns": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "faults": {
+      "type": "array",
+      "maxItems": 256,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "start_ns",
+          "end_ns"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "p_down",
+              "e_down",
+              "npu_down",
+              "fabric_down",
+              "thermal_derate"
+            ]
+          },
+          "start_ns": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_ns": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    }
+  }
+}

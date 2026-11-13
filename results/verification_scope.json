@@ -1,0 +1,14 @@
+{
+  "version": "4.0.0",
+  "profile": "LOCAL_TESTED_AND_SIMULATED_TESTED",
+  "native_cpu": "TESTED_ON_THIS_HOST",
+  "http_control_plane": "TESTED_ON_LOOPBACK",
+  "sqlite_wal": "TESTED_ON_LOCAL_FILESYSTEM",
+  "hash_chain": "TESTED_FOR_ACCIDENTAL_TAMPERING",
+  "quorum": "DETERMINISTIC_SIMULATION_ONLY",
+  "sched_ext": "SOURCE_ONLY_NOT_KERNEL_VERIFIED",
+  "npu": "NOT_PHYSICALLY_VERIFIED",
+  "physical_amd_intel_fusion": "NOT_REALIZABLE_IN_SOFTWARE_ALONE",
+  "digital_life": "READ_ONLY_NO_MODIFICATIONS",
+  "external_audit": "WAIVED_BY_OWNER_NOT_PERFORMED"
+}

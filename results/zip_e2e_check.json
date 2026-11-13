@@ -1,0 +1,13 @@
+{
+  "archive_extraction_test_status": "PASS",
+  "tests": 132,
+  "failed": 0,
+  "skipped": 0,
+  "new_twin_example": "PASS",
+  "new_campaign_replay": "PASS",
+  "simulated_scenarios": 79600,
+  "kernel_sched_ext_attached": false,
+  "physical_cxl_verified": false,
+  "physical_npu_verified": false,
+  "evidence_tier": "LOCAL_TESTED_AND_SIMULATED_TESTED"
+}

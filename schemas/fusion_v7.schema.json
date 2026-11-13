@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OMEGA-X v7 Virtual Fusion Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "architecture", "policy", "virtual_multiplier", "faults", "tasks"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "architecture": {"enum": ["amd_9850x3d", "intel_285k", "omega_x"]},
+    "policy": {"enum": ["critical_first", "background_first"]},
+    "virtual_multiplier": {"type": "integer", "minimum": 1, "maximum": 256},
+    "faults": {"type": "array", "uniqueItems": true, "maxItems": 3,
+               "items": {"enum": ["npu_off", "dram_half", "p_derate"]}},
+    "tasks": {"type": "array", "maxItems": 256,
+              "items": {"type": "object", "additionalProperties": false,
+                        "required": ["task_id", "name", "kind", "instructions", "working_set_bytes", "vector_fraction", "cache_warmth", "tensor_sparsity", "memory_access_fraction"],
+                        "properties": {
+                          "task_id": {"type": "integer", "minimum": 0, "maximum": 9223372036854775807},
+                          "name": {"type": "string", "minLength": 1, "maxLength": 96},
+                          "kind": {"enum": ["CACHE", "VECTOR", "TENSOR", "BACKGROUND"]},
+                          "instructions": {"type": "integer", "minimum": 1, "maximum": 1000000000000},
+                          "working_set_bytes": {"type": "integer", "minimum": 0, "maximum": 17179869184},
+                          "vector_fraction": {"type": "number", "minimum": 0, "maximum": 1},
+                          "cache_warmth": {"type": "number", "minimum": 0, "maximum": 1},
+                          "tensor_sparsity": {"type": "number", "minimum": 0, "maximum": 1},
+                          "memory_access_fraction": {"type": "number", "minimum": 0, "maximum": 1}
+                        }
+              }}
+  }
+}

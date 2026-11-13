@@ -1,0 +1,22 @@
+{
+  "baseline_model_makespan_ms": {
+    "amd_9850x3d": 434.981983,
+    "intel_285k": 468.761453,
+    "omega_x": 247.101254
+  },
+  "contract_satisfied": true,
+  "evidence_tier": "DETERMINISTIC_VIRTUAL_MODEL",
+  "interpretation": "Logical time dilation of ALL modeled compute, memory bandwidth and latency resources; NOT a hardware throughput or energy measurement.",
+  "omega_model_proof_sha256": "1b9f2f29cfcc6798244dc7a2eb730903f9f4eb9265ff596a1974b5ae664ea373",
+  "physical_performance_proven": false,
+  "proof_sha256": "f5eb71ac664efaf0c5c9130fe03777888abdafa685088fc4bc96b4946a28077c",
+  "required_virtual_clock_multiplier": 3,
+  "selected_policy": "critical_first",
+  "target_makespan_ms": 294.36,
+  "target_speedup_vs_amd": 2.63,
+  "target_speedup_vs_intel": 3.94,
+  "verified_makespan_ms": 82.36709,
+  "virtual_speedup_vs_amd_model": 5.281017,
+  "virtual_speedup_vs_intel_model": 5.691126,
+  "virtual_time_only": true
+}

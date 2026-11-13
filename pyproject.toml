@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "omega-x-deterministic-runtime"
+version = "6.0.0"
+requires-python = ">=3.11"
+description = "OMEGA-X deterministic hybrid CPU model, native Linux CPU execution, private multi-tenant control plane, crash recovery and offline signed adapter"
+license = {text = "MIT"}
+dependencies = []
+[project.scripts]
+omega-x = "omega_x.cli:main"
+[tool.setuptools.packages.find]
+include = ["omega_x*"]

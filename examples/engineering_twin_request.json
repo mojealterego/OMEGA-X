@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "seed": 20261112,
+  "profile": {
+    "p_lanes": 8,
+    "e_lanes": 16,
+    "npu_lanes": 4,
+    "power_budget_watts": 120
+  },
+  "tasks": [
+    {
+      "task_id": 101,
+      "tenant": "game",
+      "kind": "VECTOR",
+      "ops": 250000,
+      "transfer_bytes": 65536,
+      "arrival_ns": 0,
+      "deadline_ns": 2000000
+    },
+    {
+      "task_id": 102,
+      "tenant": "ai",
+      "kind": "TENSOR",
+      "ops": 340000,
+      "transfer_bytes": 131072,
+      "arrival_ns": 0,
+      "deadline_ns": 2000000
+    },
+    {
+      "task_id": 103,
+      "tenant": "background",
+      "kind": "BACKGROUND",
+      "ops": 90000,
+      "transfer_bytes": 4096,
+      "arrival_ns": 1000,
+      "deadline_ns": 2000000
+    }
+  ],
+  "faults": [
+    {
+      "kind": "npu_down",
+      "start_ns": 0,
+      "end_ns": 80000
+    },
+    {
+      "kind": "fabric_down",
+      "start_ns": 50000,
+      "end_ns": 70000
+    },
+    {
+      "kind": "thermal_derate",
+      "start_ns": 100000,
+      "end_ns": 120000
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "p_lanes": 8,
+  "e_lanes": 16,
+  "npu_lanes": 4,
+  "p_ops_per_us": 3000,
+  "e_ops_per_us": 1600,
+  "npu_ops_per_us": 8000,
+  "fabric_bytes_per_ns": 32,
+  "link_latency_ns": 800,
+  "p_lane_watts": 20,
+  "e_lane_watts": 8,
+  "npu_lane_watts": 10,
+  "power_budget_watts": 120,
+  "max_tasks": 4096
+}

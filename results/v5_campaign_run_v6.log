@@ -1,0 +1,1 @@
+{"all_invariants_pass": true, "coherence_events": 20000, "engineering_jobs": 9600, "kernel_attached": false, "proof_sha256": "8fae2c159a0d2a4c1389b662d8415b9a19380eb0c110f2bfb3f46f4fcb1f29cf", "quorum_events": 50000, "rejections_coherence": 1637, "scenario_events": 79600, "simulation_status": "SIMULATED_TESTED"}
